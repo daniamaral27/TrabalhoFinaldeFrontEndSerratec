@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+@import "/IMG/ISLAS-ROSARIO.jpg";
+
+:root {
+  margin: 0;
+  padding: 0;
+  --cor-primaria: #665c52;
+  --cor-secundaria: #74b3a7;
+  --cor-primaria: #a3ccaf
+  --cor-background: #e6e1cf;
+  --cor-primaria: #cc5b14;
+  --wp--preset--color--black: #000000;
+  --wp--preset--color--cyan-bluish-gray: #abb8c3;
+  --cor-background-white: #ffffff;
+  --wp--preset--color--pale-pink: #f78da7;
+  --wp--preset--color--vivid-red: #cf2e2e;
+  --cor-luminous-vivid-orange: #ff6900;
+  --wp--preset--color--luminous-vivid-amber: #fcb900;
+  --wp--preset--color--light-green-cyan: #7bdcb5;
+  --wp--preset--color--vivid-green-cyan: #90d4e6;
+  --wp--preset--color--pale-cyan-blue: #8ed1fc;
+  --wp--preset--color--vivid-cyan-blue: #0693e3;
+  --wp--preset--color--vivid-purple: #9b51e0;
+  --wp--preset--color--primaria: #e2a336;
+  --cor-preto: #000000;
+}
+#corpo {
+  background-color: var(--cor-background);
+  width: 100vw;
+  height: 100vh;
+}
+
+#cabecalho .navbar {
+  display: flex;
+  background-color: var(--cor-preto);
+  justify-content: space-between;
+}
+.btn{
+  color: whitesmoke;
+}
+
+#primeira,
+#terceira {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: center;
+}
+
+#coluna {
+  display: flex;
+  background-color: var(--cor-secundaria);
+  flex-direction: row;
+  width: 100vw;
+  margin: auto;
+  width: 100%!important;
+  padding-top: 1%;
+  justify-content: space-between;
+  font-family: "Titillium Web";
+}
+#direita #carouselExampleIndicators {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  width: 100%!important;
+}
+#legenda {
+  display: flex;
+  background-color: beige transparent;
+
+  justify-content: start;
+}
+
+#title {
+  background-color:white;
+  opacity: 80%;
+  margin: auto;
+  color: #000000;
+  font-style: var(--cor-preto);
+}
+#coluna #intro {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%!important;
+  margin: auto;
+  padding-top: -1%;
+  align-items: baseline;
+  justify-content: space-between;
+  font-family: "Titillium Web";
+}
+
+#imagem{
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100vw;
+  margin-left: -0.5%;
+  padding-top: -1%;
+  font-family: "Titillium Web";
+}
