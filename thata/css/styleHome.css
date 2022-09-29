@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&display=swap');
+
 :root {
 
     /* Var - Design */
@@ -54,6 +56,7 @@ a {
 
 html {
     scroll-behavior: smooth;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 body {
@@ -314,6 +317,11 @@ footer.color2 {
     font-size: 2rem;
 }
 
+#sobre p{
+    font-size: 0.9rem;
+}
+
+
 #sobre>div {
     display: inline-block;
     position: relative;
@@ -370,7 +378,7 @@ footer.color2 {
     }
 
     #sobre p {
-        font-size: 0.8rem;
+        font-size: 0.5rem;
     }
 
     #sobre img {
@@ -399,7 +407,7 @@ footer.color2 {
     }
 
     #sobre p {
-        font-size: 0.5rem;
+        font-size: 0.4rem;
     }
 
     #sobre img {

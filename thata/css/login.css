@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{ background-color: #F7F7F7;
+}
+
+#box-login{
+    margin: 5vw;
+    padding: 1vw;
+    border: 1px solid none ;
+    border-radius: 5%;
+    width: 30vw;
+}
+#logo > img{
+    width: 28vw;
+    border-radius: 10%;
+}
+.btn{
+    width: 100%;
+}
+#container{
+background-color: #fff;
+}
+
+#logo > h1{
+    font-style: italic;
+    color: black;
+}
