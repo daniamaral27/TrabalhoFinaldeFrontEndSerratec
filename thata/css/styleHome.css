@@ -1,26 +1,3 @@
-/*Ordenação:*/
-
-/* Reset */
-
-/* Estilização do carregamento da página */
-/* Efeito de rolagem da página */
-/* Ocultação da barra de rolagem horizontal */
-/* Estilização da barra de rolagem lateral */
-
-/* Estilização NavBar */
-
-/* Orientação section - Voos */
-/* Orientação section - Sobre */
-/* Orientação section - Destinos */
-
-
-/* Guia de cores:
-.color1 { #310e00 };
-.color2 { #250b00 };
-.color3 { #190700 };
-.color4 { #0c0400 };
-.color5 { #000000 }; */
-
 :root {
 
     /* Var - Design */
@@ -40,7 +17,6 @@
     --colorBorder: #00454D;
     --colorDestaque: #cc5b14;
     --colorHoverSection: #eef1f1bd;
-
 }
 
 
@@ -82,7 +58,7 @@ html {
 
 body {
     background-color: var(--colorBackground);
-    background-image: url(../images/fundo2.jpg);
+    background-image: url(../imagens/fundo2.jpg);
     background-size: cover;
     width: 100vw;
     font-family: 'Raleway', sans-serif;
@@ -90,9 +66,9 @@ body {
 }
 
 /* Ocultação da barra de rolagem horizontal */
-body {
+/* body {
     overflow-x: hidden;
-}
+} */
 
 /* Estilização da barra de rolagem lateral */
 
