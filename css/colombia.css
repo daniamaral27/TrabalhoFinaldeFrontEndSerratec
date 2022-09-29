@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+
+:root {
+  
+  --cor-primaria: #665c52;
+  --cor-secundaria: #74b3a7;
+  --cor--vivid-cyan-blue: #0693e3;
+  --cor-background: #e6e1cf;
+  --cor-fonte-btn-nav: whitesmoke;
+  --cor-background-banner: rgba(0,0,0,.4);
+  --cor-background-white: white;
+  --cor-background-nav: #000000;
+  --cor-background-box: #e2753ad7;
+  --cor-primaria3: #a3ccaf
+
+  --colorBackGridDestinos: 00454D;
+  --colorBackDestino: f1f1f1;
+  
+  --cor-primaria2: #cc5b14;
+  --wp--preset--color--cyan-bluish-gray: #abb8c3;
+  --wp--preset--color--pale-pink: #f78da7;
+  --wp--preset--color--vivid-red: #cf2e2e;
+  --cor-luminous-vivid-orange: #ff6900;
+  --wp--preset--color--luminous-vivid-amber: #fcb900;
+  --wp--preset--color--light-green-cyan: #7bdcb5;
+  --wp--preset--color--vivid-green-cyan: #90d4e6;
+  --wp--preset--color--pale-cyan-blue: #8ed1fc;
+  
+  --wp--preset--color--vivid-purple: #9b51e0;
+  --wp--preset--color--primaria: #e2a336;
+  
+
+}
+html {
+  height: 100%;
+  font-size: 14px;
+  font-family: var(--fonte);
+}
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+#corpo {
+  background-color: var(--cor-background);
+  width: 100vw;
+  height: 100vh;
+}
+
+#titulo{
+  font-family: "Titillium Web";
+  font-size: 500%;
+  justify-content: center;
+
+}
+header {
+  width: 100vw;
+  background-color: #00454D;
+  color: #f1f1f1;
+  opacity: .9;
+  
+}
+a:hover {
+  color: #cc5b14;
+}
+/* nav rivania */
+/* #cabecalho .navbar {
+  display: flex;
+  background-color: var(--cor-background-nav);
+  justify-content: space-between;
+}
+.btn{
+  color: var(--cor-fonte-btn-nav);
+} */
+
+.banner{
+  background-color: var(--cor-background-white);
+  position: relative;
+            border: 8px solid var(--cor-background-white);
+            box-shadow: 1px 1px 4px var(--cor-background-nav);
+}
+
+.banner-colombia video{
+  width: 100%; 
+  height: 100%;
+}
+
+.banner-colombia .banner .content h1 {
+    font-family: "Big Shoulders Display", cursive;
+    text-transform: uppercase;
+    text-align: center;
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: var(--cor-background-banner);
+    color: var(--cor-background-white);
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    transition: opacity 1s; 
+    
+}
+
+.banner .content h1:hover{
+    opacity: 2;
+}
+  
+#primeira
+#segunda,
+#terceira,
+#quarta {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: center;
+  padding: auto;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+#segunda{
+  padding-top: 2%;
+}
+#coluna-2 {
+  display: flex;
+  background: url('/imagens/lateral2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: row;
+  margin: auto;
+  width: 100%!important;
+  padding-top: 1%;
+  justify-content: space-between;
+  font-family: "Titillium Web";
+  flex-wrap: wrap;
+}
+
+#coluna-3 {
+  display: flex;
+  background-color:  var(--cor-background-box);
+  color: var(--cor-background-white);
+  flex-direction: row;
+  margin: auto;
+  width: 100%!important;
+  padding-top: 1%;
+  justify-content: space-between;
+  font-family: "Titillium Web";
+  flex-wrap: wrap;
+}
+#direita #carouselExampleIndicators {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  width: 100%!important;
+}
+#legenda {
+  display: flex;
+  background-color: var(--cor-primaria) transparent;
+  justify-content: start;
+}
+
+#title {
+  background-color:var(--cor-background-white);
+  opacity: 80%;
+  margin: auto;
+  color: var(--cor-background-nav);
+  font-style: var(--cor-background-nav);
+  flex-wrap: nowrap;
+}
+
+#coluna-2 #intro {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%!important;
+  margin: auto;
+  padding-top: -1%;
+  align-items: baseline;
+  justify-content: space-between;
+  font-family: "Titillium Web";
+}
+
+#imagem{
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: center;
+  width: 100vw;
+  margin: auto;
+  font-family: "Titillium Web";
+  -webkit-text-size-adjust: 100%;
+}
+
+#correcao{
+  margin-left: -1%;
+}
+.fotos{
+  width: 100%;
+  height: 100%;
+}
+.quadro {
+  height: 70px;
+}
+
