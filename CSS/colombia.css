@@ -12,6 +12,9 @@
   --cor-background-nav: #000000;
   --cor-background-box: #e2753ad7;
   --cor-primaria3: #a3ccaf
+
+  --colorBackGridDestinos: 00454D;
+  --colorBackDestino: f1f1f1;
   
   --cor-primaria2: #cc5b14;
   --wp--preset--color--cyan-bluish-gray: #abb8c3;
@@ -48,15 +51,25 @@ html {
   justify-content: center;
 
 }
+header {
+  width: 100vw;
+  background-color: #00454D;
+  color: #f1f1f1;
+  opacity: .9;
+  
+}
+a:hover {
+  color: #cc5b14;
+}
 
-#cabecalho .navbar {
+/* #cabecalho .navbar {
   display: flex;
   background-color: var(--cor-background-nav);
   justify-content: space-between;
 }
 .btn{
   color: var(--cor-fonte-btn-nav);
-}
+} */
 .banner{
   background-color: var(--cor-background-white);
   position: relative;
@@ -107,7 +120,7 @@ html {
 }
 #coluna-2 {
   display: flex;
-  background: url('/IMG/lateral2.jpg');
+  background: url('/imagens/lateral2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   flex-direction: row;

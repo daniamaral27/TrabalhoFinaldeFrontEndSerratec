@@ -8,15 +8,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet"
         href="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/docs-app/css/compiled-4.20.0.min.css">
-    <link rel="stylesheet" href="/CSS/header.css">
-    <link rel="stylesheet" href="/CSS/colombia.css">
-    <link rel="stylesheet" href="/CSS/footer.css">
+    <link rel="stylesheet" href="/css/colombia.css">
 
-    <title>Espresso | Colômbia</title>
+    <title>☕︎ Espresso | Colômbia</title>
 </head>
 
 <body id="corpo">
-    <header id="cabecalho">
+   <!--  <header id="cabecalho">
         <nav class="navbar navbar-expand-sm d-flex ">
             <div class="btn-group">
                 <button type="button" class="btn btn-darker">Apple</button>
@@ -36,14 +34,36 @@
                 <button class="btn btn-success" type="submit">Search</button>
             </form>
         </nav>
-    </header>
+    </header> -->
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-darker">
+          <div class="container-fluid">
+            <a class="nav-link active" aria-current="page" href="../html/index.html">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#destinos">Destinos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#sobre">Sobre</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
 
     <main>
         <section id="primeira" class="banner-colombia">
             <div class="container-fluid">
                 <div class="banner">
                     <video autoplay muted loop width=100%>
-                        <source src="/IMG/colombia.mp4" type="video/mp4">
+                        <source src="/imagens/colombia.mp4" type="video/mp4">
                     </video>
                     <div class="content">
                         <h1 id="titulo"> <br class="h1-responsive"> COLÔMBIA</h1>
@@ -140,21 +160,21 @@
                                     </ol>
                                     <div id="direita" class="carousel-inner shadow-lg p-2 mb-5 bg-white rounded">
                                         <div class="carousel-item active">
-                                            <img class="d-block w-100 img-rounded" src="/IMG/cartagena.jpg"
+                                            <img class="d-block w-100 img-rounded" src="/imagens/cartagena.jpg"
                                                 alt="Primeiro Slide">
                                             <div class="carousel-caption d-none d-md-block">
                                                 <p id="legenda"><strong class="h3-responsive">Cartagena</strong></p>
                                             </div>
                                         </div>
                                         <div class="carousel-item ">
-                                            <img class="d-block w-100 img-rounded" src="/IMG/colombia.jpg"
+                                            <img class="d-block w-100 img-rounded" src="/imagens/colombia.jpg"
                                                 alt="Segundo Slide">
                                             <div class="carousel-caption d-none d-md-block">
                                                 <p id="legenda"><strong class="h3-responsive">Bogotá</strong></p>
                                             </div>
                                         </div>
                                         <div class="carousel-item">
-                                            <img class="d-block w-100 img-rounded" src="/IMG/ISLAS-ROSARIO.jpg"
+                                            <img class="d-block w-100 img-rounded" src="/imagens/ISLAS-ROSARIO.jpg"
                                                 alt="Terceiro Slide">
                                             <div class="carousel-caption d-none d-md-block">
                                                 <p id="legenda"><strong class="h3-responsive">San Andrés</strong></p>
@@ -195,16 +215,17 @@
                     <!-- Grid column -->
                     <div class="col-md-6 col-lg-7 text-center text-md-right">
                         <!-- Facebook -->
-                        <a class="fb-ic">
+                        <a href="https://www.facebook.com/wwwcolombiacom/" target="_blank" class="fb-ic">
                             <i class="fab fa-facebook-f white-text mr-4"> </i>
                         </a>
                         <!-- Twitter -->
-                        <a class="tw-ic">
+                        <a href="https://twitter.com/colombia" target="_blank" class="tw-ic">
                             <i class="fab fa-twitter white-text mr-4">
                             </i>
                         </a>
                         <!-- Google +-->
-                        <a class="gplus-ic">
+                        <a href="https://www.google.com.br/search?q=colombia&source=hp&ei=zO41Y6aTJ-je1sQPgOOniAw&iflsig=AJiK0e8AAAAAYzX83IFjaBaIx-v3me-9myNSptoPFVSz&ved=0ahUKEwimqaiY27r6AhVor5UCHYDxCcEQ4dUDCAc&uact=5&oq=colombia&gs_lcp=Cgdnd3Mtd2l6EAMyCwguEIAEELEDENQCMgsILhCABBCxAxCDATILCC4QgAQQsQMQ1AIyCwguEIAEELEDEIMBMggIABCxAxCDATIICC4QsQMQgwEyDgguEIAEELEDEIMBENQCMgcIABCxAxAKMgUIABCABDIFCAAQgAQ6CwgAEIAEELEDEIMBOg4ILhCABBCxAxDHARDRAzoICC4QgAQQsQM6FAguEIAEELEDEIMBEMcBENEDENQCOhEILhCABBCxAxCDARDHARDRAzoLCC4QsQMQxwEQ0QM6CAgAEIAEELEDOgUILhCABFDvBFjpEGCzH2gBcAB4AIABhQKIAfwLkgEFMC43LjGYAQCgAQGwAQA&sclient=gws-wiz"
+                            target="_blank" class="gplus-ic">
                             <i class="fab fa-google-plus-g white-text mr-4"> </i>
                         </a>
                         <!--Linkedin -->
@@ -212,7 +233,7 @@
                             <i class="fab fa-linkedin-in white-text mr-4"> </i>
                         </a>
                         <!--Instagram-->
-                        <a class="ins-ic">
+                        <a href="https://www.instagram.com/colombia.travel/" target="_blank" class="ins-ic">
                             <i class="fab fa-instagram white-text"> </i>
                         </a>
                     </div>
@@ -230,9 +251,11 @@
                     <!-- Content -->
                     <h6 class="text-uppercase font-weight-bold">Espresso</h6>
                     <hr class="deep-orange accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                    <p>Espresso é uma agencia de viagens de muito prestigio Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Reprehenderit voluptatum cum quos at voluptas ab quasi architecto ipsa sint
-                        hic, pariatur dolore veniam porro iure! Dolore maxime soluta enim pariatur?</p>
+                    <p>Espresso é uma agência de viagens de muito prestígio e com anos de mercado. Acreditamos que a
+                        experiência de uma viagem é única e deve ser degustada como uma boa xícara de café. Por isso,
+                        buscamos facilitar a vida dos nossos clientes oferecendo os melhores pacotes! Confira nossas
+                        opções e entre em contato com a nossa equipe.
+                    </p>
                 </div>
                 <!-- Grid column -->
                 <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
@@ -240,13 +263,12 @@
                     <h6 class="text-uppercase font-weight-bold">Pacotes de viagem</h6>
                     <hr class="deep-orange accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                     <p>
-                        <a href="#!">Pacote Suiça</a>
+                        <a href="/html/suica.html" target="_blank">Pacote Suiça</a>
                     </p>
                     <p>
-                        <a href="#!">Pacote China</a>
+                        <a href="/html/china.html" target="_blank">Pacote China</a>
                     </p>
                     <p>
-                        <a href="/HTML/colombia.html">Pacote Colombia</a>
                     </p>
                 </div>
                 <!-- Grid column -->
@@ -255,13 +277,13 @@
                     <h6 class="text-uppercase font-weight-bold">Area de login</h6>
                     <hr class="deep-orange accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                     <p>
-                        <a href="#!">Home</a>
+                        <a href="/hmtl/index.html" target="_blank">Home</a>
                     </p>
                     <p>
-                        <a href="#!">Fazer login</a>
+                        <a href="/html/login.html" target="_blank">Fazer login</a>
                     </p>
                     <p>
-                        <a href="#!">Cadastrar nova conta</a>
+                        <a href="/html/cadastro.html" target="_blank">Cadastrar nova conta</a>
                     </p>
                 </div>
                 <!-- Grid column -->
