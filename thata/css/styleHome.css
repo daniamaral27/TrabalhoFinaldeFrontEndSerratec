@@ -1,0 +1,455 @@
+/*Ordenação:*/
+
+/* Reset */
+
+/* Estilização do carregamento da página */
+/* Efeito de rolagem da página */
+/* Ocultação da barra de rolagem horizontal */
+/* Estilização da barra de rolagem lateral */
+
+/* Estilização NavBar */
+
+/* Orientação section - Voos */
+/* Orientação section - Sobre */
+/* Orientação section - Destinos */
+
+
+/* Guia de cores:
+.color1 { #310e00 };
+.color2 { #250b00 };
+.color3 { #190700 };
+.color4 { #0c0400 };
+.color5 { #000000 }; */
+
+:root {
+
+    /* Var - Design */
+    --BorderRadius: 10px;
+    --MarginSection: 2vh auto 2vh auto;
+    --TamanhoHorizontal: 65vw;
+
+    /* Var - Cores */
+    --colorBackground: #74b3a7;
+    --colorSection: #e6e1cf;
+    --colorDiv: #a3ccaf;
+    --colorBackTituloSobre: #a3ccaf;
+    --colorBackDescriSobre: #a3ccaf;
+    --colorBackGridDestinos: #00454D;
+    --colorBackDestino: #f1f1f1;
+
+    --colorBorder: #00454D;
+    --colorDestaque: #cc5b14;
+    --colorHoverSection: #eef1f1bd;
+
+}
+
+
+/* Reset */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #222224;
+}
+
+
+/* Estilização do carregamento da página */
+
+.fadeIn {
+    animation: fadeIn 1s linear;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Efeito de rolagem da página */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--colorBackground);
+    background-image: url(../images/fundo2.jpg);
+    background-size: cover;
+    width: 100vw;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+/* Ocultação da barra de rolagem horizontal */
+body {
+    overflow-x: hidden;
+}
+
+/* Estilização da barra de rolagem lateral */
+
+body::-webkit-scrollbar {
+    width: 1vw;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #665c52;
+    border-radius: 20px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #665c52;
+    border-radius: 20px;
+}
+
+/* Estilização NavBar */
+
+header {
+    width: 100vw;
+    background-color: var(--colorBackGridDestinos);
+    color: var(--colorBackDestino);
+    opacity: .9;
+}
+
+
+
+
+/* Hover - Sections */
+
+#home.color:hover,
+#voos.color:hover,
+#sobre.color:hover,
+#destinos.color:hover {
+    background: var(--colorHoverSection);
+}
+
+.color1:hover {
+    background: var(--colorDestaque);
+}
+
+.threed:hover {
+    box-shadow:
+        1px 1px #cc5b14,
+        2px 2px #cc5b14,
+        3px 3px #cc5b14;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+}
+
+.grow:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.border:hover {
+    box-shadow: inset 0 0 0 4px #cc5b14;
+}
+
+a:hover {
+    color: var(--colorDestaque);
+}
+
+.img1 {
+    opacity: 0.5;
+}
+
+.img1:hover {
+    opacity: 1.0;
+}
+
+
+/* Orientação section - Home */
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: var(--TamanhoHorizontal);
+    height: 81vh;
+    padding: auto;
+    margin: auto;
+
+    border-radius: var(--BorderRadius);
+
+    background-color: var(--colorBackground);
+}
+
+#home iframe {
+    display: block;
+    position: absolute;
+    position: relative;
+    height: 80vh;
+    object-fit: cover;
+    border-radius: var(--BorderRadius);
+}
+
+
+/* Orientação section - Voos */
+
+#voos {
+    display: flex;
+    justify-content: flex-start;
+    width: var(--TamanhoHorizontal);
+    height: 36vh;
+    margin: var(--MarginSection);
+    padding: auto;
+    border-radius: var(--BorderRadius);
+
+    background-color: var(--colorSection);
+
+
+}
+
+
+.pesquisaVoos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 90%;
+    margin: auto;
+    padding: auto;
+    border-radius: var(--BorderRadius);
+
+    border: solid var(--colorBorder);
+    background-color: var(--colorDiv);
+}
+
+
+
+
+/* Orientação section - Destinos */
+
+#destinos {
+    display: block;
+    width: var(--TamanhoHorizontal);
+    height: 60vh;
+    margin: var(--MarginSection);
+    padding: 2px;
+    border-radius: var(--BorderRadius);
+
+    background-color: var(--colorSection);
+}
+
+
+.tituloDestinosPrincipal {
+    display: inline-block;
+    margin: 2px;
+    justify-content: left;
+    width: 100vw;
+    height: 5%;
+
+    color: var(--colorBackGridDestinos);
+}
+
+.tituloDestinosPrincipal>h1 {
+    font-size: 1.5rem;
+
+}
+
+#menuDeDestinos {
+    display: flex;
+    justify-content: left;
+    justify-content: space-between;
+    margin: auto;
+    padding: 2px;
+    width: 55vw;
+    height: 80%;
+    border-radius: var(--BorderRadius);
+
+    background-color: var(--colorBackGridDestinos);
+}
+
+
+
+#destino {
+    display: block;
+    margin: 1%;
+    padding: auto;
+    padding: 2px;
+    width: 30vw;
+    height: 95%;
+    border-radius: var(--BorderRadius);
+
+    background-color: var(--colorBackDestino);
+}
+
+
+/* Orientação imagem do destino e título */
+
+.imgDestino {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 88%;
+
+    border-radius: var(--BorderRadius);
+    background-color: #665c52;
+}
+
+.imgDestino>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: var(--BorderRadius);
+}
+
+.tituloDestinos>h2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 1.5rem;
+
+    color: var(--colorBackGridDestinos);
+
+}
+
+footer.color2 {
+    color: #74b3a7;
+
+}
+
+/* Orientação section - Sobre */
+
+#sobre {
+    display: flex;
+    position: relative;
+
+    width: var(--TamanhoHorizontal);
+    height: 36vh;
+    margin-bottom: 5px;
+    margin: var(--MarginSection);
+    padding: 1px;
+    border-radius: var(--BorderRadius);
+
+    background-color: var(--colorSection);
+    color: #00454D;
+}
+
+#sobre h1 {
+    font-size: 2rem;
+}
+
+#sobre>div {
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    margin: 1%;
+    padding: 2%;
+
+    border-radius: var(--BorderRadius);
+}
+
+.imgSobre {
+    display: inline-block;
+    position: absolute;
+    scale: 100%;
+
+    border-radius: var(--BorderRadius);
+}
+
+.imgSobre img {
+    scale: 100%;
+    width: 110%;
+    height: 90%;
+    object-fit: contain;
+
+    object-position: center;
+}
+
+
+/* Responsividade */
+
+@media (max-width: 1339px) {
+
+    #home.section {
+        width: 60vw;
+        height: 60vh;
+    }
+
+    #home iframe {
+        scale: 80%;
+    }
+
+    #destinos {
+        height: 60%;
+        margin: auto;
+        font-size: 1.0rem;
+    }
+
+    #destinos a {
+        font-size: 1rem;
+    }
+
+    #menuDeDestinos {
+        height: 60%;
+    }
+
+    #sobre p {
+        font-size: 0.8rem;
+    }
+
+    #sobre img {
+        scale: 80%;
+    }
+}
+
+@media (max-width: 970px) {
+
+    #destinos {
+        height: 40%;
+        margin: auto;
+        font-size: 0.5rem;
+    }
+
+    #menuDeDestinos {
+        height: 40%;
+    }
+
+    #sobre{
+        width: 60%;
+        height: 60%;
+    }
+    #sobre h1 {
+        font-size: 1rem
+    }
+
+    #sobre p {
+        font-size: 0.5rem;
+    }
+
+    #sobre img {
+        scale: 70%;
+    }
+}
+
+@media (max-width: 1100px) {
+
+    #home.section {
+        width: 80%;
+        height: 40%;
+    }
+
+    #home iframe {
+        scale: 60%;
+    }
+}
+
+@media (max-width: 800px) {
+
+    #destinos h1 {
+        font-size: 1rem;
+    }
+
+    #destinos a {
+        font-size: 1rem;
+    }
+}
