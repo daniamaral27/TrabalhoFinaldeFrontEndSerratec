@@ -29,6 +29,7 @@
   --wp--preset--color--vivid-purple: #9b51e0;
   --wp--preset--color--primaria: #e2a336;
   
+
 }
 html {
   height: 100%;
@@ -61,7 +62,7 @@ header {
 a:hover {
   color: #cc5b14;
 }
-
+/* nav rivania */
 /* #cabecalho .navbar {
   display: flex;
   background-color: var(--cor-background-nav);
@@ -70,6 +71,7 @@ a:hover {
 .btn{
   color: var(--cor-fonte-btn-nav);
 } */
+
 .banner{
   background-color: var(--cor-background-white);
   position: relative;
