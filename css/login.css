@@ -1,46 +1,35 @@
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap");
-:root {
-  --colorBackGridDestinos: 00454D;
-  --colorBackDestino: f1f1f1;
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body {
-  background-color: #f7f7f7;
+body{ background-color: #F7F7F7;
 }
 
-header {
-  width: 100vw;
-  background-color: #00454d;
-  color: #f1f1f1;
-  opacity: 0.9;
+#box-login{
+    margin: 5vw;
+    padding: 1vw;
+    border: 1px solid none ;
+    border-radius: 5%;
+    width: 30vw;
+}
+#logo > img{
+    width: 28vw;
+    border-radius: 10%;
+}
+.btn{
+    width: 100%;
+}
+#container{
+background-color: #fff;
 }
 
-#box-login {
-  margin: 5vw;
-  padding: 1vw;
-  border: 1px solid none;
-  border-radius: 5%;
-  width: 30vw;
-}
-#logo > img {
-  width: 28vw;
-  border-radius: 10%;
-}
-.btn {
-  width: 100%;
-}
-#container {
-  background-color: #fff;
-}
-
-#logo > h1 {
-  font-style: italic;
-  color: black;
+#logo > h1{
+    font-style: italic;
+    color: black;
 }
 
 :root {
