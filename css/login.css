@@ -42,3 +42,15 @@ header {
   font-style: italic;
   color: black;
 }
+
+:root {
+    --colorBackGridDestinos: 00454D;
+    --colorBackDestino: f1f1f1;
+  }
+  
+  header {
+    width: 100vw;
+    background-color: #00454d;
+    color: #f1f1f1;
+    opacity: 0.9;
+  }
